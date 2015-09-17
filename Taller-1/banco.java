@@ -1,9 +1,17 @@
+/**
+ * @(#)banco.java
+ *
+ *
+ * @author 
+ * @version 1.00 2015/9/11
+ */
+
 import java.util.*;
-public class Banco {
+public class banco {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+    public banco() {
+    }
+    public void retiro(){
     	int valoReti;
     	//int pri, val1, seg = 0;
     	Scanner sc= new Scanner(System.in);
@@ -65,6 +73,6 @@ public class Banco {
     		
     	}
     	
-	}
-
+    }
+    
 }
