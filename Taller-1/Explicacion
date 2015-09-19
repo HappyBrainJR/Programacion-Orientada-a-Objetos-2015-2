@@ -1,15 +1,55 @@
 Taller1 
+Ejecutable.java
+
+Esta clase contiene al método principal,  básicamente permite al usuario seleccionar cuál de los 5 
+
+programas (puntos del taller) desea ejecutar. Primero se importa la clase java.util para poder 
+
+imprimir en pantalla y leer los valores ingresados por el usuario. En el método principal se le indica 
+
+al usuario que digite una opción del 1 al 6. Dependiendo de esta opción se hará un llamado a la 
+
+clase correspondiente a uno de los 5 programas asignados de la siguiente manera.
 Ejercicio par impar
 
-En este programa importamos la libraría java.until y luego creamos la clase de nombra parimpar.
-Luego de esto, creamos un método en esta clase el cual va a contener todos los métodos de el programa.
+En este programa importamos la libraría java.until y luego creamos la clase de nombra 
+
+parimpar.
+
+Luego de esto, creamos un método en esta clase el cual va a contener todos los métodos del programa.
 Primero creamos las variables para guardar los valores necesarios y usando  el scanner pedimos los valores con los que el programa va a trabajar y guarda estos en las variables previamente creadas.
 Segundo,  creamos dos condicionales if para cada una de las variables, en las que se compara si los números ingresados son pares o impares mediande el else.
 Para finalizar tenemos un if que nos compara los dos valores y nos dice cual es mayor y cual es menor seguido de otro if dentro de este en el que comparamos si un valor ingresado es múltiplo del segundo. 
 
+promedio.java: 
+
+Esta clase calcula el promedio de los números que ingrese el usuario.  Empieza por indicarle al 
+
+usuario que indique los números que desea promediar advirtiendo que 9999 determina al 
+
+programa que no se van a ingresar más números. Ahora se entra a un ciclo el cual solo terminara si 
+
+el usuario ingresa el número 9999. En este ciclo se lee el número que ingresa el usuario en la 
+
+variable num, luego se suma a la variable suma que contiene la sumatoria de los números 
+
+ingresados hasta el momento y se aumenta la variable cantidad en uno, por lo tanto esta variable 
+
+guarda la cantidad de números que se han ingresado.
+
+Una vez se sale del ciclo, se calcula el promedio con la variable suma y cantidad, sin embargo a 
+
+suma también se le sumo el 9999 y la cantidad también cuenta a este número, por lo tanto el 
+
+promedio se calcula y se asigna a la variable promedio así: 
+
+promedio= (suma-9999)/(cantidad-1); 
+
+y por último se imprime el resultado en pantalla.
 
 Espacios
-Cuenta la cantidad de digitos que trae el numero
+
+Cuenta la cantidad de dígitos que trae el numero
 Variable para conteo de dígitos
 Variable que usamos para sacar cada uno de los dígitos
 Invoco clase de java para leer datos
