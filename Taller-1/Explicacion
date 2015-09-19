@@ -1,0 +1,42 @@
+Taller1 
+Ejercicio par impar
+
+En este programa importamos la libraría java.until y luego creamos la clase de nombra parimpar.
+Luego de esto, creamos un método en esta clase el cual va a contener todos los métodos de el programa.
+Primero creamos las variables para guardar los valores necesarios y usando  el scanner pedimos los valores con los que el programa va a trabajar y guarda estos en las variables previamente creadas.
+Segundo,  creamos dos condicionales if para cada una de las variables, en las que se compara si los números ingresados son pares o impares mediande el else.
+Para finalizar tenemos un if que nos compara los dos valores y nos dice cual es mayor y cual es menor seguido de otro if dentro de este en el que comparamos si un valor ingresado es múltiplo del segundo. 
+
+
+Espacios
+Cuenta la cantidad de digitos que trae el numero
+Variable para conteo de dígitos
+Variable que usamos para sacar cada uno de los dígitos
+Invoco clase de java para leer datos
+Pide dato
+Lee los datos e teclado
+se reasigna la variable
+se Crea un ciclo para sacar la cantidad de dígitos
+creamos un vector con la cantidad de digitos necesarios, y dados por el contador
+reasigna variable
+Se genera ciclo para almacenar el numero en un vector
+Modulamos el numero
+Eliminamos numero del valor inicial
+Asignamos dattos del modulador.
+valiable auxiliar
+largo del array
+recorre el array hasta la mitad
+almacena ultimo numero
+la ultima posicion ahora es el primer numero
+primer numero se reemplaza por el ultimo (aux)
+se disminuye de  izq a derecha el arreglo
+recorre arreglo invertido  
+imprime  el arreglo invertido
+
+ATM
+
+Importamos java.until, creamos una clase llamada banco y luego un método dentro de esta.
+Iniciamos una variable en donde vamos a pedir el valor del retiro por medio de un sacanner.
+Mediante un if hacemos una selección de información para luego en un else llevar a cabo todo el estudio del valor a retirar.
+Colocamos ordenadamente una serie de instrucciones dentro de este else en donde se evaluara el valor ingresado y poco a poco se va reduciendo a medida que lo separamos en denominaciones desde 50000 hasta 50.
+Al final, mostramos en pantalla los valores acumulados de cada denominación.
